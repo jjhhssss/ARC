@@ -119,10 +119,3 @@ void loop() {
   }
 }
 
-/*
-TROUBLESHOOTING:
-1. In Arduino IDE, go to Tools → Manage Libraries
-2. Search "Adafruit MPU6050" - make sure it's installed
-3. Search "MS5611" by Rob Tillaart - make sure it's installed
-4. Check Tools → Board - make sure "
-*/
