@@ -337,6 +337,9 @@ void setup() {
   quietSinceMs = 0;
   aboveSinceMs = 0;
 
+  Serial.println("Waiting 30s safety delay before arming enabled...");
+  delay(30000);
+  Serial.println("Arming enabled.");
   last_tick_us = micros();
 }
 
